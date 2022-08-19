@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display+SC:ital,wght@0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    overflow:hidden;
+}
+
+aside{
+    background-color:#f0f0f0;
+    width: 70px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+}
+aside i{
+    display: block;
+    margin: 2em auto;
+    margin-left:1.5em ;
+}
+header{
+    padding: 40px;
+    background-color: #454545;
+    width: 100%;
+    font-size: 10px;
+    display: block;
+    height: 240px;
+}
+header img{
+    margin: 1em;
+}
+#head-content{
+    width: 100%;
+    position: relative;
+    left: 8em;
+    color: white;
+    display: inline-block;
+}
+#head-contr{
+    position: relative;
+    width: auto;
+    display: inline-flex;
+    left: 25em;
+    top:-10em;
+    font-size: larger;
+    font-weight: bolder;
+}
+#head-contr i{
+    padding-right: 1em;
+}
+#head-contr p{
+    padding-right: 2em;
+}
+#text{
+    position: relative;
+    left: 25em;
+    top: -19em;
+    font-size: larger;
+    width: 100%;
+}
+#text p{
+    font-size: larger;
+    font-weight: bolder;
+}
+article{
+    width:100vw;
+    margin-top: 1em;
+    margin-left: 5em;
+    font-weight: bolder;
+}
+article table{
+    width:100%;
+    border-style: hidden;
+    border-spacing: 0;
+}
+article table td{
+    padding: 0.5em;
+    padding-right:10em;
+}
+article table tr{
+    text-align: left;
+}
+article table button{
+    color: blue;
+    font-weight: bolder;
+}
+article table tr:nth-child(even){
+    background-color: #f0f0f0;
+}
+
+footer{
+    position: sticky;
+    background-color: steelblue;
+    width: 100%;
+    height: 8em;
+    z-index: index 100;
+    margin-top: 15.5em;
+    overflow:hidden;
+}
+footer img{
+    width: 6em;
+    height: 6em;
+    margin: 1em auto;
+    margin-left: 1em;
+}
+
+#play_buttons{
+    position: relative;
+    margin: auto;
+    top: -8em;
+    left: 70em;
+    font-style:bold;
+    color: white;    
+}
+#play_buttons i{
+    padding-right: 9em;
+}
+#play_text{
+    position: relative;
+    left: 8em;
+    top: -6.5em;
+    color: white;
+    font-weight: bold;
+}
