@@ -1,0 +1,92 @@
+body{
+    background-color: #E5EEC1;
+}
+header{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Dancing Script', cursive;
+}
+h1{
+    font-weight: bolder;
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+    background-color: #A2D5AC;
+    border-radius: 5px;
+    box-shadow: 4px 4px lightgoldenrodyellow;
+}
+h3::after{
+    content: "🍔";
+}
+h4{
+    background-color: #3AADA8;
+}
+h2{
+    background-color:#3AADA8;
+}
+article{
+    font-family: 'Signika', sans-serif;
+    background-color: #3AADA8;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 6px 6px grey;
+}
+#main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0;
+}
+#left img{
+    height: 500px;
+}
+#left >*{
+    margin-bottom: 50px;
+}
+#right{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+#right > article{
+    margin-bottom: 50px;
+}
+form{
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: 'Signika', sans-serif;
+}
+form legend {
+    background-color:#A2D5AC;
+    border-radius: 5px;
+    box-shadow: 4px 4px grey;
+}
+form button{
+    background-color:  #A2D5AC;
+    border-radius: 5px;
+    box-shadow: 4px 4px grey;
+}
+form button:hover{
+    background-color:#3AADA8;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: #557C83
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
