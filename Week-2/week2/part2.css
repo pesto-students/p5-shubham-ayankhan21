@@ -1,0 +1,52 @@
+#main{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 50px auto;    
+}
+h1{
+    position: absolute;
+    margin: 175px 175px ;
+    z-index: -1;
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 1s ease-in-out;
+}
+.yellow{
+    width: 200px;
+    height: 200px;
+    background-color:yellow ;
+    transition: 1s ease-in-out;
+}
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 1s ease-in-out;
+}
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: 1s ease-in-out;
+}
+#main:hover .red {
+    transform: rotate(90deg) translateY(100px);
+}
+
+#main:hover .yellow {
+    transform: rotate(-90deg) translateY(100px);
+}
+
+#main:hover .blue {
+    transform: rotate(-90deg) translateY(-100px);
+}
+
+#main:hover .green {
+    transform: rotate(90deg) translateY(-100px);
+}
