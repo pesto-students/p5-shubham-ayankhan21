@@ -1,37 +1,42 @@
 // function createStack() {
-//     return{
-//         items:[],
-//         push(item) {
-//             this.items.push(item);
-//         },
-//         pop() {
-//             return this.items.pop();
+//     const items = [];
+//     function main(item){
+//         function push(item) {
+//             items.push(item);
+//         }
+//         function pop() {
+//             return console.log(items.pop());
 //         }
 //     };
 // }
 // const stack=createStack();
 // stack.push(10);
 // stack.push(5);
-// stack.pop();
-// // => 5
-// stack.items;// => [10]
-// stack.items= [10,100,1000];// Encapsulationbroken!
+// stack.pop();//=> 5
+// // console.log(stack.items[10,50,40]);
+
+// console.log(stack.items = [10,100,1000]);// => undefined
 
 
-function createStack(){
-    var items = []
-    function push(item){
-        this.items.push(item)
-    };
-    function pop(){
-        return this.items.pop()
-    };
-    return [push,pop];
+
+var items = []
+function createStack() {
+    return{
+        push:function(item){
+            items.push(item);
+        },
+        pop:function(){
+            items.pop()
+        }
+    }
 }
-    
-
-const stack=createStack()
+const stack=createStack();
 stack.push(10);
-stack.push(5);
-console.log(stack.pop());// => 5
+console.log(stack.push(5));
+stack.pop();//=> 5
+// console.log(stack.items[10,50,40]);
+
 console.log(stack.items);// => undefined
+console.log(stack.items); // => undefined
+console.log(stack.items= [10,100,1000]);
+console.log(stack.items);
