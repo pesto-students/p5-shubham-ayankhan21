@@ -14,12 +14,17 @@ function sum(...args){
 function memoize(fn){
     const cache = {};
     return function(...args){
+        args.sort();
+        console.log(args)
         if(cache[args]){
+            console.log("Already in cache")
             return cache[args]
+        }else{
+            const result = fn(...args)
+            console.log("Added to cache")
+            cache[args] = result;
+            return result;
         }
-        const result = fn(...args)
-        cache[args] = result;
-        return result;
     };
 };
 
@@ -34,7 +39,7 @@ function time(fn){
 const memoizeAdd = new memoize(sum);
 
 
-time(() => memoizeAdd(23,34,45,56,56))
+time(() => memoizeAdd(45,34,23,56,56))
 time(() => memoizeAdd(23,34,45,56,56))
 time(() => memoizeAdd(300,400,450,560,560))
 time(() => memoizeAdd(300,400,450,560,560))
