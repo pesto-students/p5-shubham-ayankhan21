@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+
+body{
+  background-color: #F2DEBA;
+  font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shortlinkbox{
+  text-align: center;
+  height: 50px;
+  border: 2px solid black;
+  background-color: aliceblue;
+}
+.box{
+  margin: 100px;
+  padding: 100px;
+  background-color: #3A8891;
+  display: grid;
+  width:600px;
+  gap: 20px;
+  align-items: center;
+}
+
+button{
+  width: 100px;
+}
+.input input{
+  width: 470px;
+  margin-right: 20px;
+}
+
+.copybtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav{
+  background-color: #FFEFD6;
+  padding: 30px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
