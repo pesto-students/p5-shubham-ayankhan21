@@ -1,0 +1,4 @@
+-- REDUX EXCERCISE 3 --
+https://codesandbox.io/s/lightswitchassignment-forked-0b1krw?file=/src/styles.css
+-- REDUX EXCERCISE 2 --
+https://codesandbox.io/s/stepcounterassignment-forked-6xqphn?file=/src/components/StepCounter.js
