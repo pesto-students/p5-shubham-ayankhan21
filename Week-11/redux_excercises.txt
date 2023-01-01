@@ -1,0 +1,4 @@
+-- REDUX EXCERCISE 1 --
+https://codesandbox.io/s/lightswitchassignment-forked-0b1krw
+-- REDUX EXCERCISE 2 --
+https://codesandbox.io/s/stepcounterassignment-forked-6xqphn
