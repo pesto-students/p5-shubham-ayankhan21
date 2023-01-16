@@ -24,7 +24,6 @@ app.post("/city", (req, res) => {
 			list = weather.list;
 			list.forEach((e) => {
 				let [date, time] = e.dt_txt.split(" ");
-				// main.push([e.main, e.weather[0].description, date]);
 				main.push({
 					"temperature details": e.main,
 					"temperature description": e.weather[0].description,
